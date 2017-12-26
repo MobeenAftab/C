@@ -1,6 +1,14 @@
+/*
+* Chapter 1
+* Section 1.5
+*/
+
 #include<stdio.h>
+
 //Count the characters in the command line
+
 main() {
+
 /*
   long nc;
   nc = 0;

@@ -1,9 +1,9 @@
-#include<stdio.h>
-
 /*
-* Print fahrenheit-celsius table for
-* fhar = 0, 20, .... 200
+* Chapter 1
+* Exercise 1.1, 1.2, 1.3, 1.4, 1.5
 */
+
+#include<stdio.h>
 
 main() {
 
