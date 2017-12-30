@@ -1,16 +1,22 @@
+/*
+* Chapter 1
+* Section 1.5.4
+* Exercise 1.11, 1.12
+*/
+
 #include <stdio.h>
 
 #define IN 1	//inside a word
 #define OUT 0	//outside a word
 
-/*Count the lines, words and characters from input*/
+// Count the lines, words and characters from input
 
 int main () {
 
 	int c, nl, nw, nc, state;
 	state = OUT;
 	nl = nw = nc = 0;
-	
+
 	while((c = getchar()) != EOF) {
 		++nc;
 		if(c == '\n') {
@@ -24,5 +30,6 @@ int main () {
 			++nw;
 		}
 	}
-	Printf("%d %d %d\n", nl, nw, nc);
+	printf("Lines: %d Words: %d Chars: %d\n", nl, nw, nc);
+
 }

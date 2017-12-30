@@ -1,6 +1,6 @@
 /*
 * Chapter 1
-* Section 1.5
+* Section 1.5.3
 * Exercise 1.8, 1.9, 1.10
 */
 
